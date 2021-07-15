@@ -17,6 +17,7 @@ rss:              RSS
 markdown:         kramdown
 kramdown:
   auto_ids:               true
+  toc:                    toc
   input:                  GFM
   math_engine:            mathjax
   smart_quotes:           lsquo,rsquo,ldquo,rdquo
