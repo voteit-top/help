@@ -13,6 +13,26 @@
         {% if page.next %}
             <link rel="next" href="{{site.baseurl}}{{page.next.url}}" />
         {% endif %}
+        <style>
+
+.toc {
+  margin: 0;
+  padding: 0;
+  right:0;
+  top:200;
+  width: 200px;
+  background-color: #f1f1f1;
+  position: fixed;
+  overflow: auto;
+}
+
+
+@media screen and (max-width: 1000px) {
+  .toc {
+     display:none;
+  }
+}
+</style>
     </head>
     <body>
         <div class="book">
@@ -37,6 +57,8 @@
                         <i class="fa fa-angle-right"></i>
                     </a>
                 {% endif %}
+                <ul id="toc" class="toc">
+                </ul>
             </div>
 
             <script>
