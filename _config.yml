@@ -1,10 +1,10 @@
 # Configurations
-title:            Jekyll Gitbook
-longtitle:        Jekyll Gitbook
-author:           HE Tao
-email:            sighingnow@gmail.com
+title:            VOTEIT Help Center
+longtitle:        VOTEIT Help Center
+author:           VOTEIT
+email:            
 description: >
-  Build Jekyll site with the GitBook style.
+  Help center for all kinds of usecases of VOTEIT.
 
 version:          1.0
 gitbook_version:  3.2.3
