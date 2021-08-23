@@ -40,6 +40,8 @@
             {%- include toc-date.html -%}
 
             <div class="book-body">
+                
+                {% toc %}
                 {%- include body.html -%}
 
                 {% if page.previous %}
@@ -57,8 +59,6 @@
                         <i class="fa fa-angle-right"></i>
                     </a>
                 {% endif %}
-                <ul id="markdown-toc">
-                </ul>
             </div>
 
             <script>
