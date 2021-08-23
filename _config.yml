@@ -12,7 +12,8 @@ gitbook_version:  3.2.3
 url:              'http://www.voteit.top'
 baseurl:          '/help'
 rss:              RSS
-
+toc:
+    enabled: true
 # markdown render engine.
 markdown:         kramdown
 kramdown:
